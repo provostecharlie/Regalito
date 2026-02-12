@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+    <!-- Envelope Screen -->
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope" />
+      <p>♡ Con amor, para ti ♡</p>
+      <p id="pre-love-message" class="pre-love-message"></p>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+      <div class="letter-window">
+        <h1 id="letter-title">¿Quieres ser mi San Valentín?</h1>
+
+<div class="gallery" id="photo-gallery">
+
+  <div class="photo-item">
+    <img src="foto1.jpg">
+    <span class="photo-msg"> Turnio de tanto amor por ti 💕</span>
+  </div>
+
+  <div class="photo-item">
+    <img src="foto2.jpg">
+    <span class="photo-msg">Ese día fui demasiado feliz</span>
+  </div>
+
+  <div class="photo-item">
+    <img src="foto3.jpg">
+    <span class="photo-msg">Amo tener citas contigo</span>
+  </div>
+
+  <div class="photo-item">
+    <img src="foto4.jpg">
+    <span class="photo-msg">Muchos matris, pronto nuestra unión!</span>
+  </div>
+
+  <div class="photo-item">
+    <img src="foto5.jpg">
+    <span class="photo-msg">Gracias por existir conmigo y disfrutar tanto momentos inolvidables</span>
+  </div>
+
+  <div class="photo-item">
+    <img src="foto6.jpg">
+    <span class="photo-msg">Cómo no amarte con esa sonrisa 💘</span>
+  </div></div>
+
+        <video loop muted playsinline class="cat" id="letter-video" style="display:none;">
+  <source src="video_nosotros.mp4" type="video/mp4">
+</video>
+
+        <div class="buttons" id="letter-buttons">
+          <img src="yes.png" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="no.png" class="btn no-btn" alt="No" />
+          </div>
+        </div>
+
+        <p id="final-text" class="final-text" style="display: none">
+          <strong>Cita de San Valentín:</strong> Cipreses de torreones III y/o salida picnic! 14 de febrero!
+        </p>
+      </div>
+    </div>
+<audio id="bg-music" src="nuestracancion.mp3" loop></audio>
+    <script src="script.js" defer></script>
+
+<!-- PIXEL CAT -->
+</div> <!-- cierre de #app -->
+
+<!-- PIXEL CAT -->
+<div id="cat-wrapper">
+  <img src="pixelcat.png" id="pixel-cat" alt="Pixel Cat">
+  <div id="cat-heart">💗</div>
+</div>
